@@ -1,0 +1,198 @@
+.warenkorb-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.warenkorb-navbar-interactive {
+  width: 100%;
+  height: 139px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.warenkorb-navlink {
+  display: contents;
+}
+.warenkorb-image {
+  left: 30px;
+  width: 193px;
+  bottom: 20px;
+  height: 96px;
+  position: absolute;
+  text-decoration: none;
+}
+.warenkorb-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.warenkorb-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.warenkorb-text {
+  font-size: 20px;
+}
+.warenkorb-text1 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+}
+.warenkorb-text2 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+}
+.warenkorb-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.warenkorb-login {
+  border-width: 0px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.warenkorb-burger-menu {
+  display: none;
+}
+.warenkorb-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.warenkorb-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.warenkorb-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.warenkorb-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.warenkorb-logo {
+  height: 2rem;
+}
+.warenkorb-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.warenkorb-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.warenkorb-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.warenkorb-text3 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.warenkorb-text4 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.warenkorb-text5 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.warenkorb-text6 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.warenkorb-text7 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.warenkorb-buttons1 {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.warenkorb-login1 {
+  margin-right: var(--dl-space-space-twounits);
+}
+.warenkorb-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.warenkorb-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.warenkorb-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+@media(max-width: 991px) {
+  .warenkorb-desktop-menu {
+    display: none;
+  }
+  .warenkorb-burger-menu {
+    display: flex;
+  }
+}
+@media(max-width: 767px) {
+  .warenkorb-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .warenkorb-burger-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .warenkorb-text3 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .warenkorb-text4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .warenkorb-text5 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .warenkorb-text6 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .warenkorb-text7 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .warenkorb-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .warenkorb-mobile-menu {
+    padding: 16px;
+  }
+}
